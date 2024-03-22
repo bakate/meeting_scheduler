@@ -1,4 +1,25 @@
-# React + TypeScript + Vite
+
+## Local Development
+
+### Prerequisites
+- Docker: [Installation Guide](https://docs.docker.com/get-docker/)
+- Docker Compose: [Installation Guide](https://docs.docker.com/compose/install/)
+
+### Getting Started
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:bakate/meeting_scheduler.git &&
+   cd meeting_scheduler
+---
+
+1. build and launch the application
+    ```bash
+    docker compose up --build
+    ```
+1. run the tests
+    ```bash
+    npm test
+    ```
 
 ## Technical skills
 
@@ -41,7 +62,6 @@ For the input:
 5 16:15-16:34
 3 08:40-10:12
 ```
-
 the solution is:
 
 ```
